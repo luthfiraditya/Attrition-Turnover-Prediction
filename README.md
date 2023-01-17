@@ -1,5 +1,63 @@
-# attrition_prediction
+# Attrition Prediction
 
+**In this project I conducted analysis and predictions related to turnover on employee data in a company**. Analysis is carried out to look for factors that cause turnover while predictions are used to predict which employees will make turnover. This project also carried out several techniques such as **normalization and sampling (due to imbalanced data)**. After modeling using several classification models, especially the tree algorithm, **it was found that LightGBM produced the best performance with F1-score = 91% and ROC-AUC Score = 91%.**
+
+<br>
+
+**This project uses kedro as a framework**
+
+---
+## Introduction
+
+**Attrition/Turnover**  is reduction or loss of employees through different conditions.
+
+Organizations usually invest more money and time in hiring staff and keeping them in the hope of adding value.
+**However,** when an employee leaves the company, the company will experience a reduction in opportunity cost. The company will also experience a negative impact from this incident.
+
+**Impact of Attrition**
+* Cost of recruitment and hiring
+* Time of transition
+* Future product or service quality issues
+* Cost of lost expertise 
+
+---
+##  Goals
+* Finding the factors that cause attrition in an organization. **Then use these factors to formulate company policies related to attrition**
+* Predicting whether an employee will engage in attrition. **This will help management act more quickly with their internal policies and strategies**
+---
+
+## Methodology
+
+<img src="img/designresearch.jpg" alt="metode" width="700"/>
+
+---
+## Result
+<br>
+
+**Model Evaluation for all testing models**
+<img src="img/all_model_evaluation.jpg" alt="metode" width="700"/>
+
+**Best Model Performance Evaluation**
+<img src="img/BestModelEvaluation.jpg" alt="metode" width="700"/>
+
+**Feature Importance**
+
+<img src="img/feature_importance.jpg" alt="metode" width="400"/>
+
+---
+## additional
+
+**Kedro Pipeline Visualization**
+
+<img src="kedro-pipeline.png" alt="metode" width="300"/>
+
+<br>
+
+**Dashboard**
+<img src="img/dashboard.png" alt="metode" width="700"/>
+
+---
+## KEDRO
 ## Overview
 
 This is your new Kedro project, which was generated using `Kedro 0.18.4`.
